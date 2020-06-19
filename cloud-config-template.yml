@@ -1,0 +1,8 @@
+#cloud-config
+
+repo_update: true
+repo_upgrade: true
+
+packages:
+  - byobu
+  - iperf3
